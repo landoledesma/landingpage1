@@ -603,6 +603,10 @@ video {
   min-height: 600px;
 }
 
+.min-h-\[600\] {
+  min-height: 600;
+}
+
 .w-full {
   width: 100%;
 }
@@ -881,6 +885,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:max-w-none {
     max-width: none;
   }
@@ -903,6 +915,14 @@ video {
 
   .md\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-4xl {
